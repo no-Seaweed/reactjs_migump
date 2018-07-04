@@ -1,0 +1,26 @@
+@import '../../base/config.scss';
+@import '../../base/mixin.scss';
+.cmr-mpoption {
+	
+}
+.container{
+    display: flex;
+    padding: 0.73rem 0 0;
+    .cmr-container{
+        width: 20%;
+        display: block;
+        text-align: center;
+        .icon_style{
+            width:2.53rem;
+            height: 2.53rem;
+            border: none;
+            padding: 0 1rem;
+        }
+        .title_style{
+            margin-top: 0.27rem;
+            color: #464c56;
+            line-height: 100%;
+            font-size: .8rem;
+        }
+    }
+}

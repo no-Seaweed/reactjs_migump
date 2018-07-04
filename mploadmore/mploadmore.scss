@@ -1,0 +1,79 @@
+@import '../../base/config.scss';
+@import '../../base/mixin.scss';
+
+.thisbox{
+    padding-bottom: 1.47rem;
+    display: -webkit-box;
+    flex-wrap: nowrap;
+    width: 91.6%;
+    padding: 0 4.2% 1.47rem;
+    .pic{
+        width: 5.7rem;
+        height: 100%;
+        position: relative;
+        margin-right: 4%;
+        .pic_sub{
+            width: 100%;
+            top: 0;
+            height: 7.6rem;
+            position: relative;
+            border: 1px solid #f0f0f0;
+            z-index:9;
+            left: 0;
+        }
+    }._content{
+        -webkit-box-flex: 1;
+        position: relative;
+        ._title{
+            margin: 2.4% 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: block;
+            color: #464c56;
+            width: 100%;
+        }
+        ._author{
+            margin-top:0.67rem;
+            width:100%;
+            color: #969fa9;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: block;
+            font-size: .8rem;
+            line-height: 150%;
+            ._icon_style{
+                margin-right: 2%;
+                font-size: .87rem;
+            }
+            ._type_style{
+                color: #a5acb5;
+                position: absolute;
+                right: 1.5%;
+                font-size: 0.73rem;
+                border:1px solid rgba(150,159,169,0.5);
+                height: 0.73rem;
+                padding: 0.25rem 0.3rem 0.1rem 0.3rem;
+                margin-top: 0.07rem;
+                line-height: 100%;
+                top:2.5rem;
+                border-radius: 4px;
+            }
+        }
+        ._intro{
+            margin-top: 1.2rem;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            position: absolute;
+            -webkit-line-clamp:2;
+            max-height: 300%;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+            width: 100%;
+            color: #969fa9;
+            line-height: 1.3rem;
+            font-size: .87rem;
+        }
+    }
+}

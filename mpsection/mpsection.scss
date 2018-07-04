@@ -1,0 +1,70 @@
+@import '../../base/config.scss';
+@import '../../base/mixin.scss';
+.cmr-mpsection {
+	
+    .section{
+        display: flex;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: relative;
+        background-color: #fcfcfc;
+        padding: .9rem 4.2%;
+        
+        .title{
+            max-width: 13.6rem;
+            padding-right: 0.1rem;
+            display: inline-block;
+            font-size: 1.13rem;
+            margin-right: 2%;
+            color: #464c56;
+            font-weight: 700;
+            }
+        .subtitle{
+            color: #ff8c10;
+            background-color:#fef9f2;
+            border: .8px solid rgba(249,217,183,.5);
+            border-radius: 12px 13px 13px 0;
+            padding: 0rem .58rem;
+            position: relative;
+            font-size: .8rem;
+            line-height: 150%;
+            height: 1.28rem;
+            margin-left: .3rem;
+            }
+        .button_main{
+            display: inline-block;
+            width:57%;
+            .button{
+                padding: 0 .73rem 0 0;
+                float: right;
+                color: #3e8aff;
+                font-size: .87rem;
+                position: relative;
+                
+            }
+        }
+    }
+}
+.co-greater-icon{
+    position: absolute;
+    font-size: .74rem;
+    font-family: cmread !important;
+    font-style: normal;
+}
+
+.sec{
+    color: #3e8aff;
+    top:-0.1rem;
+    right: -0.1rem;
+    
+    }
+.thi{
+    top:50%;
+    font-size: 0.87rem;
+    line-height: 150%;
+    padding-left: .4rem;
+}
+.co-change-tt:before{
+    width:4rem;
+}

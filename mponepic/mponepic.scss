@@ -1,0 +1,65 @@
+@import '../../base/config.scss';
+@import '../../base/mixin.scss';
+
+.onebookbox{
+    display: -webkit-box;
+    flex-wrap: nowrap;
+    width: 91.6%;
+    padding: 0 4.2%;
+    .pic_main{
+        width: 27%;
+        height: 8.2rem;
+        position: relative;
+        margin-right: 4%;
+        .pic_style{
+            width: 100%;
+            top: 0;
+            height: 100%;
+            position: relative;
+            border: 1px solid #f0f0f0;
+            z-index:9;
+            left: 0;
+        }
+    }.content{
+        -webkit-box-flex: 1;
+        position: relative;
+        .title{
+            margin: 2.4% 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: block;
+            color: #464c56;
+            width: 100%;
+        }
+        .author{
+            margin-top:1.067rem;
+            width:100%;
+            color: #969fa9;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: block;
+            font-size: .8rem;
+            line-height: 150%;
+            .icon_style{
+                margin-right: 2%;
+                font-size: .9rem;
+            }
+        }
+        .intro{
+            margin-top: 1.2rem;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            position: absolute;
+            -webkit-line-clamp:2;
+            max-height: 300%;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+            width: 100%;
+            color: #969fa9;
+            line-height: 1.3rem;
+            font-size: .87rem;
+        }
+    }
+}

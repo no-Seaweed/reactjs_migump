@@ -1,0 +1,15 @@
+@import '../../base/config.scss';
+@import '../../base/mixin.scss';
+.cmr-mpslider {
+	
+}
+.cmr-swipe-op{
+    left: 15%;
+    bottom: 0.6rem;
+    display: -webkit-box;
+    position: absolute;
+    -webkit-transform: translateX(0);
+    .cmr-swipe-button{
+        margin: 0 5px;
+    }
+}

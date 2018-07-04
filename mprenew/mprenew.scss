@@ -1,0 +1,68 @@
+@import '../../base/config.scss';
+@import '../../base/mixin.scss';
+.cmr-mprenew {
+	overflow: hidden;
+    margin: 0 4.3%;
+    max-height: 11.125rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f0f0f0;
+    .swiper-container{
+        padding: 0.2rem 0 0.73rem;
+        overflow: hidden;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        .swiper-wrapper{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .rwrapper{
+             z-index: 1;
+             display: flex;
+        }
+    }
+}
+.swiper-slide{
+    
+    height: 100%;
+    position: relative;
+    margin-right: 1.4rem;
+    &:nth-child(9){
+        margin-right: 0;    
+    }
+}
+.r{
+    width: 5.33rem;
+    flex-shrink: 0;
+   
+}
+.img_style{
+        height: 7.13rem;
+        box-sizing: border-box;
+        border: 1px solid #f0f0f0;
+        z-index: 9;
+    }
+.book-name{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-top: .6rem;
+        position: relative;
+        display: block;
+        width: 100%;
+        color: #464c56;
+        line-height: 150%;
+        }
+.bookauthor-name{
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-top: 0.334rem;
+        color: #969fa9;
+        display: block;
+        position: relative;
+        width: 100%;
+        line-height: 150%;
+    }
